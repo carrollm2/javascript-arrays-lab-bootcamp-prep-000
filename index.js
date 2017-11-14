@@ -1,6 +1,5 @@
 const app = "I don't do much."
 
-const var kittens = ["Milo","Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
   var kittens = ["Milo", "Otis", "Garfield"]
@@ -23,7 +22,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-
+  var kittens = ["Milo", "Otis", "Garfield"
   var newArray = new Array();
   newArray = [name, ...kittens]
 
@@ -31,7 +30,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-
+  var kittens = ["Milo", "Otis", "Garfield"
   var newArray = new Array();
 
   newArray = [...kittens, name]
@@ -41,6 +40,7 @@ function prependKitten(name){
 
 
 function removeLastKitten(){
+  var kittens = ["Milo", "Otis", "Garfield"
   var newArray = new Array();
   newArray = kittens.slice(0, kittens.length - 1)
   
@@ -48,6 +48,7 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
+  var kittens = ["Milo", "Otis", "Garfield"
   var newArray = new Array();
   newArray = kittens.slice(1, kittens.length)
 
