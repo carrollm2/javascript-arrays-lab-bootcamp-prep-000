@@ -3,25 +3,25 @@ const app = "I don't do much."
 
 function destructivelyAppendKitten(name){
   var kittens = ["Milo", "Otis", "Garfield"]
-  kittens.push(name)
+  kittens.push(name);
   return kittens
 }
 
 function destructivelyPrependKitten(name){
   var kittens = ["Milo", "Otis", "Garfield"]
-  kittens.unshift(name)
+  kittens.unshift(name);
   return kittens
 }
 
 function destructivelyRemoveLastKitten(){
   var kittens = ["Milo", "Otis", "Garfield"]
-  kittens.pop()
+  kittens.pop();
   return kittens
 }
 
 function destructivelyRemoveFirstKitten(){
   var kittens = ["Milo", "Otis", "Garfield"]
-  kittens.shift()
+  kittens.shift();
   return kittens
 }
 
