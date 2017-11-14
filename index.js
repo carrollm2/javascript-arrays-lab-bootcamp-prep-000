@@ -43,7 +43,7 @@ function removeLastKitten(){
   var kittens = ["Milo", "Otis", "Garfield"]
   var newArray = new Array();
   newArray = kittens.slice(0, kittens.length - 1)
-  
+
   return newArray
 }
 
